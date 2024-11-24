@@ -73,7 +73,7 @@ form.addEventListener("submit", (e) => {
       `<img src="${obj.sekil}">`,
 
       obj.qiymet,
-      `<button>Sil<button/>`
+      `<button class="sil" style="bakroundcolor:red; color:white;">Sil<button/>`
 
     ]).draw();
     location.reload()
